@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    //allows JS files to be imported in your project and not just TS files//
+    "checkJs": true,
+    // true = errors are reported in JS files//
+    "outDir": "build",
+    //outDir is just what folder you want TS to send your compilations to//
+    "target": "ES6",
+    // ES6 is supported by most browsers - ESNExt refers to the highest version your version of TS supports (not recommended)
+    "noEmit": true
+    //noEmit = if set to true, this makes room for anoter tool like Babel to handle the TypeScript file conversion //
+  },
+  "include": ["src/**/*"]
+  // defines the scope of the TS project //
+}
